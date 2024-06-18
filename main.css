@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  "Poppins", sans-serif;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-main{
+    display: flex;
+    height: 360px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #5E6668;
+    border-radius: 5px;
+}
+div #login{
+    background-color: #739193;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 30px;
+}
+div .info{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #fff;
+}
+input{
+    height: 25px;
+    border-radius: 3px;
+    border-style: none;
+}
+button{
+    height: 20px;
+    width: 90px;
+    border-color: #739193;
+    border-style: none;
+    border: 4px;
+}
